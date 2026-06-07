@@ -39,3 +39,27 @@ h3,
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05) !important;
 }
+
+/* Altura mínima para que las tarjetas asimétricas se mantengan estables */
+.style-gallery-card {
+    min-height: 250px;
+}
+
+/* Degradado profesional sobre las imágenes de la galería para que el texto blanco sea legible */
+.bg-gradient-dark {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 70%, rgba(0, 0, 0, 0) 100%);
+}
+
+/* Suavizado de bordes en los campos del formulario */
+.form-control:focus,
+.form-select:focus {
+    background-color: #ffffff !important;
+    border: 1px solid #000000 !important;
+    box-shadow: none !important;
+}
+
+/* Subtítulos estilizados */
+.card-title-sub {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-size: 1rem;
+}

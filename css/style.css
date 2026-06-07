@@ -1,0 +1,41 @@
+/* Ajustes de Tipografía Global */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #333333;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Tipografía Serif para Títulos principales (Aporta elegancia estética) */
+h1,
+h2,
+h3,
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Mejoras de diseño puntuales */
+.navbar-brand {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #555555 !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #000000 !important;
+}
+
+/* Efecto hover profesional para las tarjetas de servicios */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05) !important;
+}
